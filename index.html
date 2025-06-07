@@ -14,33 +14,36 @@
         <img  src="\imagenes\band.jpeg" alt="Imagen de los cuatro integrantes de la banda">
     </figure>
 
-        <nav>
-            <a href="#" onclick="mostrar('inicio')">Inicio</a>
-            <a href="#" onclick="mostrar('biografia')">Biografía</a>
-            <a href="#" onclick="mostrar('musica')">Música</a>
-            <a href="#" onclick="mostrar('posters')">Posters/Imagenes</a>
-        </nav>
+    <nav>
+        
+        <button onclick="mostrar('inicio')" aria-controls="inicio" aria-label="Ir a inicio">Inicio</button class="button">
+        <button onclick="mostrar('biografia')" aria-controls="biografia" aria-label="Ir a la biografia">Biografía</button>
+        <button onclick="mostrar('musica')" aria-controls="musica" aria-label="Ir a inicio">Música</button>
+        <button onclick="mostrar('posters')" aria-controls="posters" aria-label="Ir a imagenes, posters y fondos de pantallas">Posters/Imagenes</button>
+        
+
+    </nav>
         <!-- inicio -------------------------------------------------------------------------------------------------------------- -->
     <div id="inicio" class="contenido activo">
         <h2 style="text-align: center; font-family: 'Georgia', serif; color: #b30000;">Inicio</h2>
         <p>Bienvenidos al mejor sitio web dedicado a The Beatles.<br> Aqui encontraras de todo sobre ellos, su biografia, musica, imagenes y posters, algunos quiz para pasar el rato, entre otras cosas mas.</p>
 
         <section>
-            <h2 style="text-align: center; font-family: 'Georgia', serif; color: #b30000;">¿Qué tan fan eres?</h2>
-            <p>Demuestra que tan fan eres de The Beatles realizando alguno de nuestros Quiz</p>
-            <div class="contenedor-botones">
-  <a href="quiz.html" class="boton-imagen">
-    <img src="imagenes/quizFans.jpeg" alt="Ir al Quiz">
-    <span>QuizFans</span>
-  </a>
+          <h2 style="text-align: center; font-family: 'Georgia', serif; color: #b30000;">¿Qué tan fan eres?</h2>
+          <p>Demuestra que tan fan eres de The Beatles realizando alguno de nuestros Quiz</p>
+          <div class="contenedor-botones">
+    <a href="quiz.html" class="boton-imagen">
+      <img src="imagenes/quizFans.jpeg" alt="Ir al Quiz">
+      <span>QuizFans</span>
+    </a>
 
-  <a href="albumes.html" class="boton-imagen">
-    <img src="img/album-icon.png" alt="Ver Álbumes">
+  <a href="quiz.html" class="boton-imagen">
+    <img src="imagenes/quizBanda.jpeg" alt="Ver Álbumes">
     <span>QuizBanda</span>
   </a>
 
-  <a href="curiosidades.html" class="boton-imagen">
-    <img src="img/curiosidades-icon.png" alt="Curiosidades">
+  <a href="quiz.html" class="boton-imagen">
+    <img src="imagenes/quizCuriosidades.jpeg" alt="Curiosidades">
     <span>quiz Albunes</span>
   </a>
 </div>
@@ -49,7 +52,7 @@
 
         </section>
                 
-        <section style="padding: 20px; background-color: #f9f9f9;">
+        <section style="padding: 20px; background-color: #e8cccc;">
             <h2 style="text-align: center; font-family: 'Georgia', serif; color: #b30000;">
                 Curiosidades de The Beatles
             </h2>
@@ -119,18 +122,18 @@
 <!-- musica y albumes--------------------------------------------------------------------------------------------------------- -->
   <div id="musica" class="contenido">
     <h2>Álbumes</h2>
-    <p>Aquí se mostrarán los álbumes más importantes de la banda.</p>
+    <p>A continuación se enlistan los albumes de The Beatles.</p>
     <section id="seccion-albumes">
-        <h2 style="text-align: center;">Álbumes de The Beatles</h2>
-        <table id="tablaAlbumes" border="1" style="margin: auto; width: 80%; text-align: center;">
-            <thead>
-            <tr>
-                <th>Título</th>
-                <th>Año</th>
-            </tr>
-            </thead>
-            <tbody>
-        <a href="https://www.youtube.com/@TheBeatles/featured"></a>
+      <h2 style="text-align: center;">Álbumes de The Beatles</h2>
+      <table id="tablaAlbumes" border="1" style="margin: auto; width: 80%; text-align: center;">
+        <thead>
+          <tr>
+            <th>Título</th>
+            <th>Año</th>
+          </tr>
+        </thead>
+        <tbody>
+          <a href="https://www.youtube.com/@TheBeatles/featured"></a>
                 <script>
                     fetch('AlbumesCanciones.xml')
                         .then(response => response.text())
@@ -171,11 +174,81 @@
 
 
   <div id="posters" class="contenido">
-    <h2>Frases Célebres</h2>
-    <p>"All you need is love" – John Lennon</p>
-  </div>
+    <h2>Catalogo de imagenes</h2>
+    <h3>Integrantes de la banda</h3>
+    <section aria-label="integrantes de la banda" class="catalogo">
+      
+      <figure>
+        <img src="imagenes/johnLennon1.jpeg" alt="">
+        <figcaption>John Lennon</figcaption>
+      </figure>
+      <figure>
+        <img src="imagenes/gh.jpeg" alt="">
+        <figcaption>George Harrison</figcaption>
+      </figure>
+      <figure>
+        <img src="imagenes/rs.jpeg" alt="">
+        <figcaption>Ringo Starr</figcaption>
+      </figure>
+      <figure>
+        <img src="imagenes/pm.jpeg" alt="">
+        <figcaption>Paul McCartney</figcaption>
+      </figure>
+      <figure>
+        <img src="imagenes/ghInstrumneto.jpeg" alt="">
+        <figcaption>George Harrison y su instrumento</figcaption>
+      </figure>
+      <figure>
+        <img src="imagenes/jlGuitarra.jpeg" alt="">
+        <figcaption>John Lennon y su instrumento</figcaption>
+      </figure>
+      <figure>
+        <img src="imagenes/pmInstrumento.jpeg" alt="">
+        <figcaption>Paul McCartney y su instrumento</figcaption>
+      </figure>
+      <figure>
+        <img src="imagenes/rsIstrumento.jpeg" alt="">
+        <figcaption>Ringo Starr y su instrumento</figcaption>
+      </figure>
+      <figure>
+        <img src="imagenes/ghJoven.jpeg" alt="">
+        <figcaption>George Harrison joven</figcaption>
+      </figure>
+      <figure>
+        <img src="imagenes/jlJoven.jpeg" alt="">
+        <figcaption>John Lennon joven</figcaption>
+      </figure>
+      <figure>
+        <img src="imagenes/pmJoven.jpeg" alt="">
+        <figcaption>Paul McCartney joven</figcaption>
+      </figure>
+      <figure>
+        <img src="imagenes/rsJoven.jpeg" alt="">
+        <figcaption>Ringo Starr joven</figcaption>
+      </figure>
+      
+    </section>
+    <h3>Fondos de pantalla</h3>
+    <section aria-label="Fondos de pantalla" class="catalogo">
+      
+      <figure>
+        <img src="imagenes/fondo1.jpeg" alt="">
+        <figcaption>John Lennon</figcaption>
+      </figure>
+      <figure>
+        <img src="imagenes/fondo2.jpeg" alt="">
+        <figcaption>George Harrison</figcaption>
+      </figure>
+      <figure>
+        <img src="imagenes/fondo3.jpeg" alt="">
+        <figcaption>Ringo Starr</figcaption>
+      </figure>
+      
+    </section>
+    </div>
+    
 
-  <!-- Footer al final de la página -->
+<!-- uso de footer------------------------------------------------------------------------------ -->
 <footer style="background: #222; color: white; text-align: center; padding: 15px;">
   <p>Sitio web sobre The Beatles</p>
   <a href="https://www.facebook.com/thebeatles" style="color: lightgray;">Facebook</a> |
