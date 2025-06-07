@@ -69,10 +69,9 @@ fetch('AlbumesCanciones.xml')
         // Cargar imagen
         const imgSrc = album.getAttribute("imagen");
         if (imgSrc) {
-          imgElement.src = "imagenes/" + imgSrc; // ajusta según tu ruta real
+          imgElement.src = "imagenes/" + imgSrc;
         }
 
-        // Cargar canciones
         const canciones = album.getElementsByTagName("songs")[0].getElementsByTagName("song");
         const lista = document.getElementById("listaCanciones");
 
