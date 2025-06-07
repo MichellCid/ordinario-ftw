@@ -64,7 +64,7 @@
             </songs>
         </album>
 
-        <album title="Beatles for Sale" year="1964" imagen="The_Beatles-Beatles_For_Sale-frontal.jpg">
+        <album title="Beatles for Sale" year="1964" imagen="The_Beatles-Beatles_For_Sale-Frontal.jpg">
             <songs>
                 <song title="No Reply" duration="2:15"/>
                 <song title="I'm a Loser" duration="2:31"/>
@@ -83,7 +83,7 @@
             </songs>
         </album>
 
-        <album title="Help!" year="1965" imagen="The_Beatles-Help_-frontal.jpg">
+        <album title="Help!" year="1965" imagen="The_Beatles-Help_-Frontal.jpg">
             <songs>
                 <song title="Help!" duration="2:18"/>
                 <song title="The Night Before" duration="2:33"/>
@@ -102,7 +102,7 @@
             </songs>
         </album>
 
-        <album title="Rubber Soul" year="1965" imagen="The_Beatles-Rubber_Soul-frontal.jpg">
+        <album title="Rubber Soul" year="1965" imagen="The_Beatles-Rubber_Soul-Frontal.jpg">
             <songs>
                 <song title="Drive My Car" duration="2:28"/>
                 <song title="Norwegian Wood (This Bird Has Flown)" duration="2:05"/>
@@ -121,7 +121,7 @@
             </songs>
         </album>
 
-        <album title="Revolver" year="1966">
+        <album title="Revolver" year="1966" imagen="The_Beatles-Revolver-Frontal">
             <songs>
                 <song title="Taxman" duration="2:39"/>
                 <song title="Eleanor Rigby" duration="2:08"/>
@@ -140,7 +140,7 @@
             </songs>
         </album>
 
-        <album title="Sgt. Pepper's Lonely Hearts Club Band" year="1967" imagen="The_Beatles--frontal.jpg">
+        <album title="Sgt. Pepper's Lonely Hearts Club Band" year="1967" imagen="The_Beatles-Sgt_Pepper_s_Lonely_Hearts_Club_Band-Frontal.jpg">
             <songs>
                 <song title="Sgt. Pepper's Lonely Hearts Club Band" duration="2:02"/>
                 <song title="With a Little Help from My Friends" duration="2:44"/>
@@ -158,7 +158,7 @@
             </songs>
         </album>
 
-        <album title="Magical Mystery Tour" year="1967" imagen="The_Beatles-Magical_Mystery_Tour-frontal.jpg">
+        <album title="Magical Mystery Tour" year="1967" imagen="The_Beatles-Magical_Mystery_Tour-Frontal.jpg">
             <songs>
                 <song title="Magical Mystery Tour" duration="2:48"/>
                 <song title="The Fool on the Hill" duration="2:59"/>
@@ -174,7 +174,7 @@
             </songs>
         </album>
 
-        <album title="The Beatles (White Album)" year="1968" imagen="The_Beatles-The_Beatles(whiteAlbum)-frontal.jpg">
+        <album title="The Beatles (White Album)" year="1968" imagen="The_Beatles-The_Beatles(whiteAlbum)-Frontal.jpg">
             <songs>
                 <song title="Back in the U.S.S.R." duration="2:43"/>
                 <song title="Dear Prudence" duration="3:56"/>
@@ -209,7 +209,7 @@
             </songs>
         </album>
 
-        <album title="Yellow Submarine" year="1969" imagen="The_Beatles-Yellow_Submarine-frontal.jpg">
+        <album title="Yellow Submarine" year="1969" imagen="The_Beatles-Yellow_Submarine-Frontal.jpg">
             <songs>
                 <song title="Yellow Submarine" duration="2:38"/>
                 <song title="Only a Northern Song" duration="3:24"/>
@@ -228,7 +228,7 @@
             </songs>
         </album>
 
-        <album title="Abbey Road" year="1969" imagen="The_Beatles-Abbey_Road-frontal.jpg">
+        <album title="Abbey Road" year="1969" imagen="The_Beatles-Abbey_Road-Frontal.jpg">
             <songs>
                 <song title="Come Together" duration="4:20"/>
                 <song title="Something" duration="3:03"/>
@@ -250,7 +250,7 @@
             </songs>
         </album>
 
-        <album title="Let It Be" year="1970" imagen="The_Beatles-Let_It_Be-frontal.jpg">
+        <album title="Let It Be" year="1970" imagen="The_Beatles-Let_It_Be-Frontal.jpg">
             <songs>
                 <song title="Two of Us" duration="3:36"/>
                 <song title="Dig a Pony" duration="3:55"/>
