@@ -121,7 +121,7 @@
             </songs>
         </album>
 
-        <album title="Revolver" year="1966" imagen="The_Beatles-Revolver-Frontal">
+    <album title="Revolver" year="1966" imagen="The_Beatles-Revolver-Frontal.jpg">
             <songs>
                 <song title="Taxman" duration="2:39"/>
                 <song title="Eleanor Rigby" duration="2:08"/>
