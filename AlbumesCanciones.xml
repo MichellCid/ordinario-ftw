@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<band name="The Beatles" origin="Liverpool, UK" activeYears="1960-1970">
+    <members>
+        <member>John Lennon</member>
+        <member>Paul McCartney</member>
+        <member>George Harrison</member>
+        <member>Ringo Starr</member>
+    </members>
+
+    <albums>
+        <album title="Please Please Me" year="1963" imagen="pleasepleaseme.jpeg">
+            <songs>
+                <song title="I Saw Her Standing There" duration="2:55"/>
+                <song title="Misery" duration="1:50"/>
+                <song title="Anna (Go to Him)" duration="2:57"/>
+                <song title="Chains" duration="2:25"/>
+                <song title="Boys" duration="2:27"/>
+                <song title="Ask Me Why" duration="2:28"/>
+                <song title="Please Please Me" duration="2:03"/>
+                <song title="Love Me Do" duration="2:22"/>
+                <song title="P.S. I Love You" duration="2:05"/>
+                <song title="Baby It's You" duration="2:38"/>
+                <song title="Do You Want to Know a Secret" duration="1:59"/>
+                <song title="A Taste of Honey" duration="2:05"/>
+                <song title="There's a Place" duration="1:52"/>
+                <song title="Twist and Shout" duration="2:34"/>
+            </songs>
+        </album>
+
+        <album title="With the Beatles" year="1963" imagen="With_The_Beatles.jpg">
+            <songs>
+                <song title="It Won't Be Long" duration="2:13"/>
+                <song title="All I've Got to Do" duration="2:03"/>
+                <song title="All My Loving" duration="2:10"/>
+                <song title="Don't Bother Me" duration="2:28"/>
+                <song title="Little Child" duration="1:46"/>
+                <song title="Till There Was You" duration="2:16"/>
+                <song title="Please Mister Postman" duration="2:37"/>
+                <song title="Roll Over Beethoven" duration="2:44"/>
+                <song title="Hold Me Tight" duration="2:30"/>
+                <song title="You Really Got a Hold on Me" duration="3:03"/>
+                <song title="I Wanna Be Your Man" duration="1:59"/>
+                <song title="Devil in Her Heart" duration="2:26"/>
+                <song title="Not a Second Time" duration="2:07"/>
+                <song title="Money (That's What I Want)" duration="2:47"/>
+            </songs>
+        </album>
+
+        <album title="A Hard Day's Night" year="1964" imagen="The_Beatles-A_Hard_Day_s_Night-Frontal.jpg">
+            <songs>
+                <song title="A Hard Day's Night" duration="2:34"/>
+                <song title="I Should Have Known Better" duration="2:43"/>
+                <song title="If I Fell" duration="2:19"/>
+                <song title="I'm Happy Just to Dance with You" duration="1:56"/>
+                <song title="And I Love Her" duration="2:30"/>
+                <song title="Tell Me Why" duration="2:09"/>
+                <song title="Can't Buy Me Love" duration="2:12"/>
+                <song title="Any Time at All" duration="2:14"/>
+                <song title="I'll Cry Instead" duration="1:46"/>
+                <song title="Things We Said Today" duration="2:35"/>
+                <song title="When I Get Home" duration="2:17"/>
+                <song title="You Can't Do That" duration="2:35"/>
+                <song title="I'll Be Back" duration="2:24"/>
+            </songs>
+        </album>
+
+        <album title="Beatles for Sale" year="1964" imagen="The_Beatles-Beatles_For_Sale-frontal.jpg">
+            <songs>
+                <song title="No Reply" duration="2:15"/>
+                <song title="I'm a Loser" duration="2:31"/>
+                <song title="Baby's in Black" duration="2:05"/>
+                <song title="Rock and Roll Music" duration="2:32"/>
+                <song title="I'll Follow the Sun" duration="1:49"/>
+                <song title="Mr. Moonlight" duration="2:37"/>
+                <song title="Kansas City/Hey-Hey-Hey-Hey!" duration="2:37"/>
+                <song title="Eight Days a Week" duration="2:43"/>
+                <song title="Words of Love" duration="2:04"/>
+                <song title="Honey Don't" duration="2:57"/>
+                <song title="Every Little Thing" duration="2:01"/>
+                <song title="I Don't Want to Spoil the Party" duration="2:34"/>
+                <song title="What You're Doing" duration="2:30"/>
+                <song title="Everybody's Trying to Be My Baby" duration="2:25"/>
+            </songs>
+        </album>
+
+        <album title="Help!" year="1965" imagen="The_Beatles-Help_-frontal.jpg">
+            <songs>
+                <song title="Help!" duration="2:18"/>
+                <song title="The Night Before" duration="2:33"/>
+                <song title="You've Got to Hide Your Love Away" duration="2:09"/>
+                <song title="I Need You" duration="2:28"/>
+                <song title="Another Girl" duration="2:05"/>
+                <song title="You're Going to Lose That Girl" duration="2:17"/>
+                <song title="Ticket to Ride" duration="3:10"/>
+                <song title="Act Naturally" duration="2:33"/>
+                <song title="It's Only Love" duration="1:55"/>
+                <song title="You Like Me Too Much" duration="2:35"/>
+                <song title="Tell Me What You See" duration="2:39"/>
+                <song title="I've Just Seen a Face" duration="2:07"/>
+                <song title="Yesterday" duration="2:05"/>
+                <song title="Dizzy Miss Lizzy" duration="2:54"/>
+            </songs>
+        </album>
+
+        <album title="Rubber Soul" year="1965" imagen="The_Beatles-Rubber_Soul-frontal.jpg">
+            <songs>
+                <song title="Drive My Car" duration="2:28"/>
+                <song title="Norwegian Wood (This Bird Has Flown)" duration="2:05"/>
+                <song title="You Won't See Me" duration="3:22"/>
+                <song title="Nowhere Man" duration="2:44"/>
+                <song title="Think for Yourself" duration="2:19"/>
+                <song title="The Word" duration="2:43"/>
+                <song title="Michelle" duration="2:42"/>
+                <song title="What Goes On" duration="2:50"/>
+                <song title="Girl" duration="2:33"/>
+                <song title="I'm Looking Through You" duration="2:27"/>
+                <song title="In My Life" duration="2:27"/>
+                <song title="Wait" duration="2:16"/>
+                <song title="If I Needed Someone" duration="2:23"/>
+                <song title="Run for Your Life" duration="2:18"/>
+            </songs>
+        </album>
+
+        <album title="Revolver" year="1966">
+            <songs>
+                <song title="Taxman" duration="2:39"/>
+                <song title="Eleanor Rigby" duration="2:08"/>
+                <song title="I'm Only Sleeping" duration="3:00"/>
+                <song title="Love You To" duration="2:59"/>
+                <song title="Here, There and Everywhere" duration="2:26"/>
+                <song title="Yellow Submarine" duration="2:40"/>
+                <song title="She Said She Said" duration="2:38"/>
+                <song title="Good Day Sunshine" duration="2:10"/>
+                <song title="And Your Bird Can Sing" duration="2:01"/>
+                <song title="For No One" duration="2:03"/>
+                <song title="Doctor Robert" duration="2:15"/>
+                <song title="I Want to Tell You" duration="2:30"/>
+                <song title="Got to Get You into My Life" duration="2:31"/>
+                <song title="Tomorrow Never Knows" duration="2:57"/>
+            </songs>
+        </album>
+
+        <album title="Sgt. Pepper's Lonely Hearts Club Band" year="1967" imagen="The_Beatles--frontal.jpg">
+            <songs>
+                <song title="Sgt. Pepper's Lonely Hearts Club Band" duration="2:02"/>
+                <song title="With a Little Help from My Friends" duration="2:44"/>
+                <song title="Lucy in the Sky with Diamonds" duration="3:28"/>
+                <song title="Getting Better" duration="2:48"/>
+                <song title="Fixing a Hole" duration="2:36"/>
+                <song title="She's Leaving Home" duration="3:35"/>
+                <song title="Being for the Benefit of Mr. Kite!" duration="2:37"/>
+                <song title="Within You Without You" duration="5:05"/>
+                <song title="When I'm Sixty-Four" duration="2:37"/>
+                <song title="Lovely Rita" duration="2:42"/>
+                <song title="Good Morning Good Morning" duration="2:41"/>
+                <song title="Sgt. Pepper's Lonely Hearts Club Band (Reprise)" duration="1:18"/>
+                <song title="A Day in the Life" duration="5:33"/>
+            </songs>
+        </album>
+
+        <album title="Magical Mystery Tour" year="1967" imagen="The_Beatles-Magical_Mystery_Tour-frontal.jpg">
+            <songs>
+                <song title="Magical Mystery Tour" duration="2:48"/>
+                <song title="The Fool on the Hill" duration="2:59"/>
+                <song title="Flying" duration="2:17"/>
+                <song title="Blue Jay Way" duration="3:55"/>
+                <song title="Your Mother Should Know" duration="2:33"/>
+                <song title="I Am the Walrus" duration="4:35"/>
+                <song title="Hello, Goodbye" duration="3:27"/>
+                <song title="Strawberry Fields Forever" duration="4:10"/>
+                <song title="Penny Lane" duration="3:03"/>
+                <song title="Baby You're a Rich Man" duration="3:07"/>
+                <song title="All You Need Is Love" duration="3:48"/>
+            </songs>
+        </album>
+
+        <album title="The Beatles (White Album)" year="1968" imagen="The_Beatles-The_Beatles(whiteAlbum)-frontal.jpg">
+            <songs>
+                <song title="Back in the U.S.S.R." duration="2:43"/>
+                <song title="Dear Prudence" duration="3:56"/>
+                <song title="Glass Onion" duration="2:17"/>
+                <song title="Ob-La-Di, Ob-La-Da" duration="3:08"/>
+                <song title="Wild Honey Pie" duration="0:52"/>
+                <song title="The Continuing Story of Bungalow Bill" duration="3:14"/>
+                <song title="While My Guitar Gently Weeps" duration="4:45"/>
+                <song title="Happiness Is a Warm Gun" duration="2:43"/>
+                <song title="Martha My Dear" duration="2:28"/>
+                <song title="I'm So Tired" duration="2:03"/>
+                <song title="Blackbird" duration="2:18"/>
+                <song title="Piggies" duration="2:04"/>
+                <song title="Rocky Raccoon" duration="3:33"/>
+                <song title="Don't Pass Me By" duration="3:50"/>
+                <song title="Why Don't We Do It in the Road?" duration="1:41"/>
+                <song title="I Will" duration="1:46"/>
+                <song title="Julia" duration="2:54"/>
+                <song title="Birthday" duration="2:42"/>
+                <song title="Yer Blues" duration="4:01"/>
+                <song title="Mother Nature's Son" duration="2:48"/>
+                <song title="Everybody's Got Something to Hide Except Me and My Monkey" duration="2:24"/>
+                <song title="Sexy Sadie" duration="3:15"/>
+                <song title="Helter Skelter" duration="4:29"/>
+                <song title="Long, Long, Long" duration="3:04"/>
+                <song title="Revolution 1" duration="4:15"/>
+                <song title="Honey Pie" duration="2:41"/>
+                <song title="Savoy Truffle" duration="2:54"/>
+                <song title="Cry Baby Cry" duration="3:02"/>
+                <song title="Revolution 9" duration="8:22"/>
+                <song title="Good Night" duration="3:11"/>
+            </songs>
+        </album>
+
+        <album title="Yellow Submarine" year="1969" imagen="The_Beatles-Yellow_Submarine-frontal.jpg">
+            <songs>
+                <song title="Yellow Submarine" duration="2:38"/>
+                <song title="Only a Northern Song" duration="3:24"/>
+                <song title="All Together Now" duration="2:10"/>
+                <song title="Hey Bulldog" duration="3:11"/>
+                <song title="It's All Too Much" duration="6:25"/>
+                <song title="All You Need Is Love" duration="3:57"/>
+                <!-- Banda sonora instrumental por George Martin -->
+                <song title="Pepperland" duration="2:19"/>
+                <song title="Sea of Time" duration="3:00"/>
+                <song title="Sea of Holes" duration="2:17"/>
+                <song title="Sea of Monsters" duration="3:37"/>
+                <song title="March of the Meanies" duration="2:18"/>
+                <song title="Pepperland Laid Waste" duration="2:09"/>
+                <song title="Yellow Submarine in Pepperland" duration="2:12"/>
+            </songs>
+        </album>
+
+        <album title="Abbey Road" year="1969" imagen="The_Beatles-Abbey_Road-frontal.jpg">
+            <songs>
+                <song title="Come Together" duration="4:20"/>
+                <song title="Something" duration="3:03"/>
+                <song title="Maxwell's Silver Hammer" duration="3:27"/>
+                <song title="Oh! Darling" duration="3:27"/>
+                <song title="Octopus's Garden" duration="2:51"/>
+                <song title="I Want You (She's So Heavy)" duration="7:47"/>
+                <song title="Here Comes the Sun" duration="3:05"/>
+                <song title="Because" duration="2:45"/>
+                <song title="You Never Give Me Your Money" duration="4:02"/>
+                <song title="Sun King" duration="2:26"/>
+                <song title="Mean Mr. Mustard" duration="1:06"/>
+                <song title="Polythene Pam" duration="1:12"/>
+                <song title="She Came In Through the Bathroom Window" duration="1:57"/>
+                <song title="Golden Slumbers" duration="1:31"/>
+                <song title="Carry That Weight" duration="1:36"/>
+                <song title="The End" duration="2:20"/>
+                <song title="Her Majesty" duration="0:23"/>
+            </songs>
+        </album>
+
+        <album title="Let It Be" year="1970" imagen="The_Beatles-Let_It_Be-frontal.jpg">
+            <songs>
+                <song title="Two of Us" duration="3:36"/>
+                <song title="Dig a Pony" duration="3:55"/>
+                <song title="Across the Universe" duration="3:48"/>
+                <song title="I Me Mine" duration="2:25"/>
+                <song title="Dig It" duration="0:51"/>
+                <song title="Let It Be" duration="4:03"/>
+                <song title="Maggie Mae" duration="0:39"/>
+                <song title="I've Got a Feeling" duration="3:38"/>
+                <song title="One After 909" duration="2:54"/>
+                <song title="The Long and Winding Road" duration="3:38"/>
+                <song title="For You Blue" duration="2:32"/>
+                <song title="Get Back" duration="3:09"/>
+            </songs>
+        </album>
+
+
+
+    </albums>
+</band>

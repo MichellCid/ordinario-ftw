@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Detalle del Álbum</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
+
+    .contenedor {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      padding: 5px;
+      border-bottom: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+    <div>
+        <h1 id="tituloAlbum"></h1>
+        <figure>
+            <img id="imagenAlbum" alt="Portada del álbum" style="width: 300px; display: block; margin: auto;">
+        </figure>
+        <ul id="listaCanciones"></ul>
+    </div>
+  
+
+  <script>
+  const params = new URLSearchParams(window.location.search);
+  const nombreAlbum = params.get("nombre");
+
+  document.getElementById("tituloAlbum").textContent = nombreAlbum;
+
+  const imgElement = document.getElementById("imagenAlbum");
+
+fetch('AlbumesCanciones.xml')
+  .then(response => response.text())
+  .then(data => {
+    const parser = new DOMParser();
+    const xml = parser.parseFromString(data, "application/xml");
+    const albums = xml.getElementsByTagName("albums")[0].getElementsByTagName("album");
+
+    for (let i = 0; i < albums.length; i++) {
+      const album = albums[i];
+      const titulo = album.getAttribute("title");
+      const imgSrc = album.getAttribute("imagen");
+      if (titulo === nombreAlbum) {
+        // Cargar imagen
+        const imgSrc = album.getAttribute("imagen");
+        if (imgSrc) {
+          imgElement.src = "imagenes/" + imgSrc; // ajusta según tu ruta real
+        }
+
+        // Cargar canciones
+        const canciones = album.getElementsByTagName("songs")[0].getElementsByTagName("song");
+        const lista = document.getElementById("listaCanciones");
+
+        for (let j = 0; j < canciones.length; j++) {
+          const nombre = canciones[j].getAttribute("title");
+          const duracion = canciones[j].getAttribute("duration");
+          
+
+          const li = document.createElement("li");
+          li.textContent = `${nombre} (${duracion})`;
+          lista.appendChild(li);
+        }
+      }
+    }
+  });
+
+</script>
+
+</body>
+</html>
